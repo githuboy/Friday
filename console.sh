@@ -8,4 +8,4 @@ echo "init"
 fi
 
 echo "run okc"
-./okc --rpcport 3000 --port 3003  --rpccorsdomain "http://localhost:3000"  --datadir ./ cs 2>>./okc.log
+./okc --datadir ./ cs 2>>./okc.log
